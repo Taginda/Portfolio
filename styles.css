@@ -144,7 +144,7 @@ h3 {
   }
 
   .icon:hover {
-    transform: scale(1.3);
+    animation: iconrotate 1s ease-in infinite;
   }
 
 @keyframes hello {
@@ -169,6 +169,26 @@ h3 {
         opacity: 1
     }
          
+}
+
+keyframes iconrotate {
+	0% {
+		transform: scale(1.5);
+	}
+	
+	25% {
+		transform: scale(1.5) rotate(25deg);
+		
+	}
+	
+	75% {
+		transform: scale(1.5) rotate(-25deg);
+		
+	}
+ 
+	100% {
+		transform: scale(1.5);
+	}
 }
 
  
