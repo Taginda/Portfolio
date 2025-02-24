@@ -171,7 +171,7 @@ h3 {
          
 }
 
-keyframes iconrotate {
+@keyframes iconrotate {
 	0% {
 		transform: scale(1.5);
 	}
